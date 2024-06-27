@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genetic Algorithm - Circles</title>
+    <style>
+      body {
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+      }
+      span {
+        color: white;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas
+      id="canvas"
+      width="600"
+      height="400"
+      style="border: 1px solid #fff; background-color: #000"
+    ></canvas>
+    <span id="generationCount">Generation: 1</span>
+    <span id="averageFitness">Avg fitness: 0</span>
+    <span id="firstMatch">First match found:</span>
+    <span id="matchCount">Matches: 0%</span>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
