@@ -1,0 +1,23 @@
+{
+	"name": "random-motion",
+	"version": "1.0.0",
+	"main": "/public/index.js",
+	"repository": "git@github.com:kevinmaes/random.git",
+	"author": "Kevin Maes <kevin@kevinmaes.com>",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"typescript": "^5.3.3",
+		"vite": "^5.1.4",
+		"vitest": "^1.4.0"
+	},
+	"dependencies": {
+		"xstate": "^5.9.1"
+	}
+}
